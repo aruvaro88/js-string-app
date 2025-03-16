@@ -13,8 +13,9 @@
             <p class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla at mauris ac maximus. Nunc id auctor ligula. Sed vel neque sit amet lacus porttitor dapibus vehicula vitae ligula. Nulla convallis enim felis, quis tempus nunc convallis eu. </p>
         </div>
 
-        <!-- Lista de textos -->
-        <ul id="item-list" class="item-list-container"></ul>
+        
+        <div id="item-list" class="item-list-container"></div>
+        
         <div class="buttons-container">
             <div class="secondary-buttons">
                 <button id="undo-button" class="button secondary">Undo</button>
@@ -22,11 +23,12 @@
             </div>
             <button id="add-button" class="button primary">Add</button>
         </div>
-        <!-- Modal -->
+        
         <div id="modal" class="modal-container">
             <div class="modal-content">
                 <p class="modal-header">Add item to list</p>
                 <input type="text" id="text-input" placeholder="Type the text here..." class="text-input">
+                <p id="error-message" class="error-message">Text cannot be empty</p>
                 <div class="modal-buttons">
                     <button id="add-item" class="button primary">Add</button>
                     <button id="cancel-button" class="button secondary">Cancel</button>
