@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanilla JS App</title>
+    <title>Aplicación de Lista de Textos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app">
-       <h1>STRING APP</h1>
+    <div class="container">
+        <div class="titleContainer">
+            <h1 class="header">This is a technical proof</h1>
+            <p class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla at mauris ac maximus. Nunc id auctor ligula. Sed vel neque sit amet lacus porttitor dapibus vehicula vitae ligula. Nulla convallis enim felis, quis tempus nunc convallis eu. </p>
+        </div>
+        <div class="buttonsContainer">
+            <div class="secondaryButtons">
+                <button id="undoButton" class="button secondary" disabled>Undo</button>
+                <button id="deleteButton" class="button secondary" disabled>Delete</button>
+            </div>
+            <button id="addButton" class="button primary">Add</button>
+        </div>
     </div>
 
     <script src="app.js"></script>

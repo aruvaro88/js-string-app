@@ -6,10 +6,98 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #2596be;
 }
 
-#app {
-    width: 80%;
-    max-width: 800px;
+.container{
+    background-color: white;
+    padding: 48px;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:40%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.buttonsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.subHeader{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.secondaryButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+  margin-right: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.primary {
+  background-color: #324bff;
+  color: white;
+}
+
+.primary:hover {
+  background-color: darkblue;
+}
+
+.secondary {
+  border: 1px solid #324bff;
+  color: #324bff;
+}
+
+.secondary:hover {
+    border: 1px solid darkblue;
+  color: darkblue;
+}
+
+.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor:default;
+  opacity: 0.5;
+  border: 1px solid #666
+}
+
+.disabled:hover {
+  border: 1px solid #666;
+  color: #666;
 }
