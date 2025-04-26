@@ -23,13 +23,13 @@ git clone https://github.com/aruvaro88/js-string-app.git
 ```
 
 Move to project directory
+
 ```bash
 cd js-string-app
 ```
 
 Open index.html file
 
-## License
+## Licenses
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
